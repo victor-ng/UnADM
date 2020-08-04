@@ -1,24 +1,29 @@
+/* Calculadora de riesgo de COVID-19, la cual es parte de la actividad
+ * Evidencia de aprendizaje de la unidad 2.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
+// Prototipeo de función auxiliar
 short esValida(char input, short tipo);
 
+// Función principal
 int main() {
-    char  sexo;
-    char  paso_edad[3];
-    int   edad;
-    char  peso;
-    char  diabetes;
-    char  hipertension;
-    char  fuma;
-    char  padece_epoc;
-    char  enfermedad_cardiovascular;
-    char  inmunosupresion;
+    char  sexo = ' ';
+    char  paso_edad[3] = "";
+    int   edad = 0;
+    char  peso = ' ';
+    char  diabetes = ' ';
+    char  hipertension = ' ';
+    char  fuma = ' ';
+    char  padece_epoc = ' ';
+    char  enfermedad_cardiovascular = ' ';
+    char  inmunosupresion = ' ';
     int   puntos = 0;
-    int   factor_riesgo;
-    char  nivel_riesgo[20];
+    int   factor_riesgo = 0;
+    char  nivel_riesgo[20] = "";
     short respuestaValida = 0;
     
     char  encabezado1[80] = "======================================================================\n";
@@ -189,13 +194,15 @@ int main() {
 	printf("                        -- R E S U L T A D O --\n\n\n");
     printf("\tTotal puntos:.......%d\n", puntos);
 	printf("\tNivel de Riesgo:....%s\n", nivel_riesgo);
-	printf("\tFactor de Riesgo:...%d\n", factor_riesgo);
+	printf("\tFactor de Riesgo:...%d\n\n", factor_riesgo);
+	
+	system("pause");
 
 	return 0;
 }
 
 /*
-* Funcion para realizar las validaciones para entrada de datos.
+* Funcion auxiliar que realiza las validaciones para entrada de datos.
 */
 short esValida(char entrada, short tipo)
 {
