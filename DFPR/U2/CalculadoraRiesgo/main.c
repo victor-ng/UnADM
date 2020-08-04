@@ -194,6 +194,9 @@ int main() {
 	return 0;
 }
 
+/*
+* Funcion para realizar las validaciones para entrada de datos.
+*/
 short esValida(char entrada, short tipo)
 {
 	short valido = 0;
