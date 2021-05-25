@@ -3,6 +3,8 @@ package mx.unad.dpo1;
 /**
  *
  * @author victornug
+ * Esta subclase hereda de la superclase Vehiculo, tal como se indica con la palabra clave "extends",
+ * incluída en la declaración.
  * Esta categoría de vehículo está enfocada a ofrecer transportación para tours turísticos.
  * .
  */

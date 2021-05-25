@@ -3,6 +3,8 @@ package mx.unad.dpo1;
 /**
  *
  * @author victornug
+ * Esta subclase hereda de la superclase Vehiculo, tal como se indica con la palabra clave "extends",
+ * incluída en la declaración.
  */
 public class Compacto extends Vehiculo {
     // Se agregan propiedades adicionales (y sus respectivos getters/setters) a las heredadas de la superclase.

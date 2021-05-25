@@ -3,7 +3,9 @@ package mx.unad.dpo1;
 /**
  *
  * @author victornug
- * Esta categoria de sedanes, implica un nivel de servicio premium o de lujo, con un tipo de servicio
+ * Esta subclase hereda de la superclase Vehiculo, tal como se indica con la palabra clave "extends",
+ * incluída en la declaración.
+ * La categoria de sedanes, implica un nivel de servicio premium o de lujo, con un tipo de servicio
  * agregado mayor al del tipo de vehículo compacto.
  */
 public class Sedan extends Vehiculo {
