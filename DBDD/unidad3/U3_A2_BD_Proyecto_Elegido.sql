@@ -227,6 +227,10 @@ INSERT Beneficiarios (nombre, apellido_paterno, apellido_materno, telefono, edad
 VALUES ('Siana', 'Dudley', 'Rubee', 7284245859, 19, '1 Hermina Point', 2, 3, 'DURS020219MVZDBI08');
 INSERT Beneficiarios (nombre, apellido_paterno, apellido_materno, telefono, edad, domicilio, id_estado, id_ciudad, curp)
 VALUES ('Oliver', 'Standeven', 'Beurich', 2179543763, 24, '34043 Bay Point', 1, 1, 'SABO971122HNTTRL05');
+INSERT Beneficiarios (nombre, apellido_paterno, apellido_materno, telefono, edad, domicilio, id_estado, id_ciudad, curp)
+VALUES ('Claire', 'Nornasell', 'Bigley', 1473782932, 41, '724 Acker Avenue', 3, 6, 'NOBC800612MTCRGL04');
+INSERT Beneficiarios (nombre, apellido_paterno, apellido_materno, telefono, edad, domicilio, id_estado, id_ciudad, curp)
+VALUES ('Alfred', 'Tompkinson', 'Reasce', 3972064641, 9, '2 Eastlawn Lane', 7, 11, 'TORA120521HTCMSLA6');
 
 INSERT ApoyosEconomicos (id_beneficiario, importe, fecha, periodo, activo) VALUES (1, 550, '2021-02-22', 1, true);
 INSERT ApoyosEconomicos (id_beneficiario, importe, fecha, periodo, activo) VALUES (5, 1500, '2021-03-18', 2, true);
@@ -235,12 +239,12 @@ INSERT ApoyosEconomicos (id_beneficiario, importe, fecha, periodo, activo) VALUE
 INSERT ApoyosEconomicos (id_beneficiario, importe, fecha, periodo, activo) VALUES (6, 2000, '2021-10-02', 1, true);
 INSERT ApoyosEconomicos (id_beneficiario, importe, fecha, periodo, activo) VALUES (10, 1500, '2021-01-15', 1, true);
 
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (6, 3000, '2020-10-01', 4, true);
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (9, 3000, '2021-01-01', 1, true);
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (6, 3000, '2020-07-01', 3, true);
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (9, 3000, '2020-06-01', 3, true);
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (6, 3000, '2021-04-01', 1, true);
-INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (9, 3000, '2021-05-01', 2, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (4, 3000, '2020-10-01', 4, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (7, 3000, '2021-01-01', 1, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (4, 3000, '2020-07-01', 3, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (7, 3000, '2020-06-01', 3, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (4, 3000, '2021-04-01', 1, true);
+INSERT BecasInfantiles (id_beneficiario, importe, fecha, periodo, activo) VALUES (7, 3000, '2021-05-01', 2, true);
 
 INSERT ApoyosDespensas (id_beneficiario, cantidad_despensas, fecha, periodo, activo) VALUES (1, 1, '2020-11-01', 6, true);
 INSERT ApoyosDespensas (id_beneficiario, cantidad_despensas, fecha, periodo, activo) VALUES (7, 1, '2021-03-11', 2, true);
