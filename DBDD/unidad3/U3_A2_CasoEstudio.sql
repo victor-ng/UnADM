@@ -1,0 +1,49 @@
+CREATE SCHEMA `VACUNACION`;
+USE VACUNACION;
+
+CREATE TABLE Sede
+(
+	Id_Sede CHAR(4) PRIMARY KEY,
+	Colonia VARCHAR(50),
+	Calle VARCHAR(50),
+	Numero INT,
+	CP CHAR(6),
+	Ciudad VARCHAR(50)
+);
+
+CREATE TABLE Persona
+(
+	Id_Folio VARCHAR(10) PRIMARY KEY,
+	Nombre VARCHAR(50),
+	Apellido VARCHAR(50),
+	Edad TINYINT,
+	Ciudad VARCHAR(50),
+	Id_Sede CHAR(4),
+	FOREIGN KEY (Id_Sede) REFERENCES Sede(Id_Sede)
+);
+
+CREATE TABLE PersonalDeSalud
+(
+	Id_Cedula INT PRIMARY KEY,
+	Nombre VARCHAR(50),
+	Apellido VARCHAR(50),
+	Ciudad VARCHAR(50),
+	Id_Sede CHAR(4),
+	FOREIGN KEY (Id_Sede) REFERENCES Sede(Id_Sede)
+);
+
+DROP TABLE Sede;
+
+ALTER TABLE Persona
+ADD CURP CHAR(18);
+
+SELECT	Edad
+FROM	Persona;
+
+UPDATE	PersonalDeSalud
+SET		Id_Sede = '0002'
+WHERE	Id_Cedula = 8795;
+
+DELETE	
+FROM	Persona
+WHERE	Id_Folio = 'A50-045324';
