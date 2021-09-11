@@ -1,0 +1,81 @@
+<muebleria>
+	<venta>
+		<folio>100</folio>
+		<fecha>10/08/2021</fecha>
+		<productos>
+			<producto>
+				<codigo>100</codigo>
+				<precio>15000</precio>
+				<cantidad>1</cantidad>
+			</producto>
+			<producto>
+				<codigo>150</codigo>
+				<tipo>licuadora</tipo>
+				<marca>Mexicana</marca>
+				<precio>1000</precio>
+				<cantidad>1</cantidad>
+			</producto>
+		</productos>
+		<vendedor>
+			<id>1</id>
+			<nombre>Panfilo Morales</nombre>
+			<direccion>Calle Artillero no 49</direccion>
+		</vendedor>
+		<cliente>
+			<id_cliente>1</id_cliente>
+			<nombre>Augusto Aguilar</nombre>
+		</cliente>
+	</venta>
+	<venta>
+		<folio>101</folio>
+		<fecha>11/08/2021</fecha>
+		<productos>
+			<producto>
+				<codigo>100</codigo>
+				<tipo>juego de sala</tipo>
+				<precio>15000</precio>
+				<cantidad>1</cantidad>
+			</producto>
+			<producto>
+				<codigo>160</codigo>
+				<tipo>Microondas</tipo>
+				<marca>Mexicana</marca>
+				<precio>3000</precio>
+				<potencia>1200</potencia>
+				<cantidad>1</cantidad>
+			</producto>
+		</productos>
+		<vendedor>
+			<id>2</id>
+			<nombre>Francisco Lopez</nombre>
+			<direccion>Calle Artillero no 49</direccion>
+		</vendedor>
+		<cliente>
+			<id_cliente>2</id_cliente>
+			<nombre>Benito Barco</nombre>
+		</cliente>
+	</venta>
+	<venta>
+		<folio>103</folio>
+		<fecha>11/08/2021</fecha>
+		<productos>
+			<producto>
+				<codigo>160</codigo>
+				<tipo>Microondas</tipo>
+				<marca>Mexicana</marca>
+				<precio>3000</precio>
+				<potencia>1200</potencia>
+				<cantidad>1</cantidad>
+			</producto>
+		</productos>
+		<vendedor>
+			<id>2</id>
+			<nombre>Francisco Lopez</nombre>
+			<direccion>Calle Artillero no 49</direccion>
+		</vendedor>
+		<cliente>
+			<id_cliente>3</id_cliente>
+			<nombre>Camilo Contreras</nombre>
+		</cliente>
+	</venta>
+</muebleria>
